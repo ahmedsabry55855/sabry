@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- وصف الموقع بالعربية -->
+    <meta name="description" content="مزود حلول رقمية رائد يقدم خدمات مبتكرة في تطوير الويب والتطبيقات والتسويق الرقمي. حول عملك مع حلولنا التقنية المتطورة.">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/1.png">
+    
+    <!-- الكلمات المفتاحية -->
+    <meta name="keywords" content="حلول رقمية, تطوير ويب, تطبيقات جوال, تسويق رقمي, خدمات تقنية, استشارات تقنية">
+    
+    <title>صبري - مطور برمجيات</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="animated-background"></div>
+
+    <!-- الهيدر -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo-lang-wrapper">
+                <a href="#home" class="logo-container">
+                    <img src="img/1.png" alt="الشعار" class="logo-img">
+                </a>
+                <!-- مبدل اللغة -->
+                <div class="language-switcher">
+                    <a href="index.html" class="lang-btn">
+                        <i class="fas fa-globe"></i>
+                        English
+                    </a>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="#services">خدماتنا</a>
+                <a href="#projects">مشاريعنا</a>
+                <a href="#contact">تواصل معنا</a>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- قائمة الموبايل -->
+    <div class="mobile-nav">
+        <div class="mobile-nav-links">
+            <a href="#home">الرئيسية</a>
+            <a href="#services">خدماتنا</a>
+            <a href="#projects">مشاريعنا</a>
+            <a href="#contact">تواصل معنا</a>
+            <a href="index.html" class="lang-btn">
+                <i class="fas fa-globe"></i>
+                English
+            </a>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- خلفية الفقاعات المتحركة -->
+    <div class="animated-circles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- قسم الترحيب -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="animated-title">صبري</h1>
+            <p class="hero-description glass-effect">
+                نقدم جميع الخدمات الإلكترونية في كافة المجالات مثل البرمجة والتسويق الإلكتروني والاستشارات في علوم الحاسب. فريقنا من الخبراء ملتزم بتقديم حلول مبتكرة تدفع عملك إلى الأمام.
+            </p>
+            <div class="hero-services glass-effect">
+                <div class="hero-service-item">
+                    <i class="fas fa-code"></i>
+                    <span>برمجة</span>
+                </div>
+                <div class="hero-service-item">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>تسويق إلكتروني</span>
+                </div>
+                <div class="hero-service-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>استشارات تقنية</span>
+                </div>
+            </div>
+            <a href="#contact" class="cta-button">ابدأ الآن</a>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <div class="services-header">
+                <h2>خدماتنا</h2>
+                <p class="section-subtitle">نقدم حلولاً رقمية شاملة لعملك</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- خدمة البرمجة -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>البرمجة والتطوير</h3>
+                        <p>نقدم حلول برمجية مخصصة لتلبية احتياجات عملك</p>
+                        <ul class="service-features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>تطوير مواقع الويب</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>تطبيقات الجوال</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>برمجة مخصصة</span>
+                            </li>
+                        </ul>
+                        <button class="service-btn">
+                            اعرف المزيد
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- خدمة التسويق -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>التسويق الرقمي</h3>
+                        <p>حلول تسويقية رقمية لتعزيز تواجدك على الإنترنت</p>
+                        <ul class="service-features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>إدارة وسائل التواصل الاجتماعي</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>تحسين محركات البحث</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>حملات إعلانية</span>
+                            </li>
+                        </ul>
+                        <button class="service-btn">
+                            اعرف المزيد
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- خدمة الاستشارات -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>استشارات تقنية</h3>
+                        <p>خدمات استشارية لتحسين البنية التقنية لعملك</p>
+                        <ul class="service-features">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>تحليل النظم</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>استشارات تقنية</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                <span>حلول أمنية</span>
+                            </li>
+                        </ul>
+                        <button class="service-btn">
+                            اعرف المزيد
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section class="projects" id="projects">
+        <div class="projects-container">
+            <div class="projects-header">
+                <h2>مشاريعنا</h2>
+                <p class="section-subtitle">نماذج من أعمالنا</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- مشروع 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="img/cash-register.png" alt="نظام إدارة المطاعم">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>نظام إدارة المطاعم</h3>
+                                <p>اضافة مخزون ادارة المخزون نظام بيع منتجات ادارة الفوتير   </p>
+                                <div class="project-links">
+                                    <a href="https://ahmedsabry55855.github.io/kasher/" class="project-link" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://ahmedsabry55855.github.io/kasher/" class="visit-project-btn" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        زيارة المشروع
+                    </a>
+                </div>
+
+                <!-- مشروع 2 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="img/2.png" alt="مشروع 2">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>مكتبة دعم الطلاب</h3>
+                                <p>مكتبة مخصصة لتوفير المحتوى التعليمي والتدريبي لجميع الأعمار</p>
+                                <div class="project-links">
+                                    <a href="https://ahmedsabry55855.github.io/15/index.html" class="project-link" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://ahmedsabry55855.github.io/15/index.html" class="visit-project-btn" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        زيارة المشروع
+                    </a>
+                </div>
+
+                <!-- مشروع 3 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="img/3.png" alt="تصميم واجهة المستخدم">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>إنشاء مواقع شخصية ومؤسسية</h3>
+                                <p>تصميم مواقع بشكل احترافي ومميز</p>
+                                <div class="project-links">
+                                    <a href="https://ahmedsabry55855.github.io/ahmed/" class="project-link" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                        <span>Prototype</span>
+                    </div>
+                    <a href="https://ahmedsabry55855.github.io/ahmed/" class="visit-project-btn" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        زيارة المشروع
+                    </a>
+                </div>
+
+                <!-- مشروع 4 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="img/4.png" alt="منصة تجارة إلكترونية">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>منصة تجارة إلكترونية</h3>
+                                <p>حل متكامل للتجارة الإلكترونية</p>
+                                <div class="project-links">
+                                    <a href="https://ahmedsabry55855.github.io/prand/" class="project-link" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="https://ahmedsabry55855.github.io/prand/" class="visit-project-btn" target="_blank">
+                        <i class="fas fa-external-link-alt"></i>
+                        زيارة لمشروع
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h2>تواصل معنا</h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/sabry55855" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/+201115932251" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/ahmed_sabry_s/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://t.me/ahmed_sabry55855" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const overlay = document.querySelector('.overlay');
+
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileNav.classList.toggle('active');
+            overlay.classList.toggle('active');
+        });
+
+        overlay.addEventListener('click', function() {
+            mobileNav.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+
+        document.querySelectorAll('.mobile-nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                mobileNav.classList.remove('active');
+                overlay.classList.remove('active');
+            });
+        });
+    });
+    </script>
+</body>
+</html>
